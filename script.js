@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    button.innerText = 'CHANGE';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -33,7 +33,7 @@ var models = [
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.03 0.03 0.03',
+        scale: '0.01 0.01 0.01',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
     },
